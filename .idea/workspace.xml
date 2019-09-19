@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/case/test_003.py" line="54" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f933f2f-a1e8-4fa8-ba01-114a02207a6e" name="Default Changelist" comment="" />
+    <list default="true" id="4f933f2f-a1e8-4fa8-ba01-114a02207a6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_003.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_004.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_addCommodity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_login_ddt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/datas.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/read_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/addCommodity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/loginfc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_002.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_003.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,24 +34,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/result.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="322">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_001.py">
+        <entry file="file://$PROJECT_DIR$/case/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="1173">
+              <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
               <folding>
                 <element signature="e#14#44#0" expanded="true" />
               </folding>
@@ -36,38 +57,83 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1265">
+              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+              <folding>
+                <element signature="e#14#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+              <folding>
+                <element signature="e#14#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/addCommodity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+              <folding>
+                <element signature="e#14#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/test_addCommodity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="e#14#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/loginfc.py">
+        <entry file="file://$PROJECT_DIR$/case/test_login_ddt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="138">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
-                <element signature="e#15#45#0" expanded="true" />
+                <element signature="e#14#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_002.py">
+        <entry file="file://$PROJECT_DIR$/common/read_excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="317">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
-                <element signature="e#488#518#0" expanded="true" />
+                <element signature="e#32#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner_cn.py">
+        <entry file="file://$PROJECT_DIR$/case/test_002.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="581" column="44" lean-forward="true" selection-start-line="581" selection-start-column="44" selection-end-line="581" selection-end-column="44" />
-              <folding>
-                <element signature="e#3215#3230#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="202">
+              <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -87,7 +153,19 @@
       <find>StringIO</find>
       <find>sed</find>
       <find>print</find>
+      <find>webd</find>
+      <find>click</find>
+      <find>findElement</find>
+      <find>is</find>
+      <find>is_te</find>
+      <find>send</find>
+      <find>send_</find>
+      <find>find</find>
+      <find>select</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,19 +177,32 @@
         <option value="$PROJECT_DIR$/common/HTMLTestRunner_cn.py" />
         <option value="$PROJECT_DIR$/py/test_001.py" />
         <option value="$USER_HOME$/Desktop/HTMLTestRunner.py" />
-        <option value="$PROJECT_DIR$/run_all.py" />
         <option value="$PROJECT_DIR$/test_case/login.py" />
-        <option value="$PROJECT_DIR$/test_case/test_001.py" />
-        <option value="$PROJECT_DIR$/test_case/test_002.py" />
         <option value="$PROJECT_DIR$/test_case/loginfc.py" />
+        <option value="$PROJECT_DIR$/test_case/test_001.py" />
+        <option value="$PROJECT_DIR$/test_case/test——004.py" />
+        <option value="$PROJECT_DIR$/test_case/test_004.py" />
+        <option value="$PROJECT_DIR$/test_case/test_addCommodity.py" />
+        <option value="$PROJECT_DIR$/run_all.py" />
+        <option value="$PROJECT_DIR$/test_case/test_002.py" />
+        <option value="$PROJECT_DIR$/test_case/test_003.py" />
+        <option value="$PROJECT_DIR$/pages/loginfc.py" />
+        <option value="$PROJECT_DIR$/case/test_addCommodity.py" />
+        <option value="$PROJECT_DIR$/pages/login.py" />
+        <option value="$PROJECT_DIR$/case/test_login.py" />
+        <option value="$PROJECT_DIR$/common/read_excel.py" />
+        <option value="$PROJECT_DIR$/pages/addCommodity.py" />
+        <option value="$PROJECT_DIR$/case/test_002.py" />
+        <option value="$PROJECT_DIR$/common/base.py" />
+        <option value="$PROJECT_DIR$/case/test_login_ddt.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
-    <option name="y" value="203" />
-    <option name="width" value="1100" />
-    <option name="height" value="803" />
+    <option name="x" value="580" />
+    <option name="y" value="689" />
+    <option name="width" value="952" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -129,17 +220,22 @@
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,12 +244,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github1\untitled\test_case" />
       <recent name="D:\untitled" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github1\untitled\common" />
+      <recent name="D:\github1\untitled\pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -168,8 +270,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.loginfc">
-    <configuration name="loginfc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.addCommodity">
+    <configuration name="addCommodity" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +279,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/loginfc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/addCommodity.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +292,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_002" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="read_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,11 +300,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_002.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/read_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,55 +313,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_001.Test_Login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_login_ddt.Test_Login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_001.Test_Login&quot;" />
+      <option name="_new_target" value="&quot;test_login_ddt.Test_Login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_001.Test_Login.test_password_wrong" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_login_ddt.Test_Login.test_01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_001.Test_Login.test_password_wrong&quot;" />
+      <option name="_new_target" value="&quot;test_login_ddt.Test_Login.test_01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_001.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_login_ddt.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_001.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_login_ddt.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.loginfc" />
-        <item itemvalue="Python tests.Unittests in test_001.py" />
-        <item itemvalue="Python.test_002" />
-        <item itemvalue="Python tests.Unittests for test_001.Test_Login.test_password_wrong" />
-        <item itemvalue="Python tests.Unittests for test_001.Test_Login" />
+        <item itemvalue="Python.addCommodity" />
+        <item itemvalue="Python tests.Unittests in test_login_ddt.py" />
+        <item itemvalue="Python.read_excel" />
+        <item itemvalue="Python tests.Unittests for test_login_ddt.Test_Login" />
+        <item itemvalue="Python tests.Unittests for test_login_ddt.Test_Login.test_01" />
       </list>
     </recent_temporary>
   </component>
@@ -277,47 +379,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_001_Test_Login_test_password_wrong - 2019.08.27 at 17h 01m 15s.xml">
-      <configuration name="Unittests for test_001.Test_Login.test_password_wrong" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_ddt_py - 2019.09.18 at 18h 56m 07s.xml">
+      <configuration name="Unittests in test_login_ddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_001_Test_Login_test_password_wrong - 2019.08.27 at 17h 02m 12s.xml">
-      <configuration name="Unittests for test_001.Test_Login.test_password_wrong" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_ddt_py - 2019.09.18 at 19h 00m 26s.xml">
+      <configuration name="Unittests in test_login_ddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_001_Test_Login - 2019.08.27 at 17h 03m 57s.xml">
-      <configuration name="Unittests for test_001.Test_Login" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_ddt_py - 2019.09.18 at 19h 00m 52s.xml">
+      <configuration name="Unittests in test_login_ddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_001_Test_Login - 2019.08.27 at 17h 05m 09s.xml">
-      <configuration name="Unittests for test_001.Test_Login" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_ddt_py - 2019.09.18 at 19h 01m 51s.xml">
+      <configuration name="Unittests in test_login_ddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_001_Test_Login - 2019.08.27 at 17h 07m 12s.xml">
-      <configuration name="Unittests for test_001.Test_Login" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_ddt_py - 2019.09.18 at 19h 04m 10s.xml">
+      <configuration name="Unittests in test_login_ddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_001_Test_Login - 2019.09.03 at 17h 26m 28s.xml">
-      <configuration name="Unittests for test_001.Test_Login" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_ddt_py - 2019.09.18 at 19h 11m 34s.xml">
+      <configuration name="Unittests in test_login_ddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_001_Test_Login_test_password_wrong - 2019.09.03 at 17h 37m 31s.xml">
-      <configuration name="Unittests for test_001.Test_Login.test_password_wrong" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_ddt_py - 2019.09.18 at 19h 11m 36s.xml">
+      <configuration name="Unittests in test_login_ddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_001_py - 2019.09.03 at 17h 39m 50s.xml">
-      <configuration name="Unittests in test_001.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_ddt_py - 2019.09.18 at 19h 14m 04s.xml">
+      <configuration name="Unittests in test_login_ddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_001_py - 2019.09.03 at 17h 40m 25s.xml">
-      <configuration name="Unittests in test_001.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_ddt_py - 2019.09.18 at 19h 15m 24s.xml">
+      <configuration name="Unittests in test_login_ddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_001_py - 2019.09.03 at 17h 41m 08s.xml">
-      <configuration name="Unittests in test_001.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_ddt_py - 2019.09.19 at 14h 21m 28s.xml">
+      <configuration name="Unittests in test_login_ddt.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="203" width="1100" height="803" extended-state="0" />
+    <frame x="608" y="473" width="952" height="714" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26836157" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19474836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37406856" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.16220737" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20998278" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39629006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -329,17 +432,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_case/loginfc.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/123.py" />
@@ -381,47 +473,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner_cn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="581" column="44" lean-forward="true" selection-start-line="581" selection-start-column="44" selection-end-line="581" selection-end-column="44" />
+        <state relative-caret-position="1750">
+          <caret line="572" column="30" lean-forward="true" selection-start-line="572" selection-start-column="30" selection-end-line="572" selection-end-column="30" />
           <folding>
             <element signature="e#3215#3230#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_002.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/support/wait.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="273">
+          <caret line="90" column="44" lean-forward="true" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_003.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
-            <element signature="e#488#518#0" expanded="true" />
+            <element signature="e#472#502#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_004.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="160" column="30" lean-forward="true" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="322">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_001.py">
+    <entry file="file://$PROJECT_DIR$/pages/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="1265">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
           <folding>
             <element signature="e#14#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/loginfc.py">
+    <entry file="file://$PROJECT_DIR$/common/read_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="317">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
-            <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#32#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_addCommodity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#14#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/addCommodity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login_ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
           </folding>
         </state>
       </provider>

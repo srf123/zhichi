@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>官网登录自动化测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-09-04 18:07:10</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:25.224443</p>
-<p class='attribute'><strong>Status:</strong> Error 3</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-09-19 17:14:19</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:54.204532</p>
+<p class='attribute'><strong>Status:</strong> Pass 7 Error 2</p>
 
 <p class='description'>自动化测试报告</p>
 </div>
@@ -222,12 +222,12 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='errorClass'>
-    <td>test_001.Test_Login</td>
-    <td>2</td>
+    <td>test_002.Test_Login</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>2</td>
-    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
 <tr id='ft1.1' class='none'>
@@ -246,52 +246,16 @@ function showOutput(id, name) {
         <pre>
         
 ft1.1: Traceback (most recent call last):
-  File "D:\untitled\test_case\test_001.py", line 51, in test_login
+  File "D:\github1\untitled\case\test_002.py", line 43, in test_login
     self.lg.login(self.driver,"13534050371","1133557799")
-  File "D:\untitled\test_case\loginfc.py", line 9, in login
-    self.driver.get("http://www.zhichiwangluo.com")
+  File "D:\github1\untitled\pages\login.py", line 48, in login
+    self.driver.get(login_url)
 AttributeError: 'WebDriver' object has no attribute 'driver'
 Traceback (most recent call last):
-  File "D:\untitled\test_case\test_001.py", line 51, in test_login
+  File "D:\github1\untitled\case\test_002.py", line 43, in test_login
     self.lg.login(self.driver,"13534050371","1133557799")
-  File "D:\untitled\test_case\loginfc.py", line 9, in login
-    self.driver.get("http://www.zhichiwangluo.com")
-AttributeError: 'WebDriver' object has no attribute 'driver'
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='ft1.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_password_wrong: 用例说明：用户名正确、密码错误，登录失败</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        error</a>
-
-    <div id='div_ft1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.2: Traceback (most recent call last):
-  File "D:\untitled\test_case\test_001.py", line 77, in test_password_wrong
-    self.lg.login(self.driver,"13534050371","123123")
-  File "D:\untitled\test_case\loginfc.py", line 9, in login
-    self.driver.get("http://www.zhichiwangluo.com")
-AttributeError: 'WebDriver' object has no attribute 'driver'
-Traceback (most recent call last):
-  File "D:\untitled\test_case\test_001.py", line 77, in test_password_wrong
-    self.lg.login(self.driver,"13534050371","123123")
-  File "D:\untitled\test_case\loginfc.py", line 9, in login
-    self.driver.get("http://www.zhichiwangluo.com")
+  File "D:\github1\untitled\pages\login.py", line 48, in login
+    self.driver.get(login_url)
 AttributeError: 'WebDriver' object has no attribute 'driver'
 
 
@@ -303,7 +267,7 @@ AttributeError: 'WebDriver' object has no attribute 'driver'
 </tr>
 
 <tr class='errorClass'>
-    <td>test_002.Test_Login</td>
+    <td>test_addCommodity.Test_add_Commodity</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
@@ -312,7 +276,7 @@ AttributeError: 'WebDriver' object has no attribute 'driver'
 </tr>
 
 <tr id='ft2.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_login: 用例说明：用户名密码正确，登录成功</div></td>
+    <td class='errorCase'><div class='testcase'>test_add_commodity</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -327,18 +291,218 @@ AttributeError: 'WebDriver' object has no attribute 'driver'
         <pre>
         
 ft2.1: Traceback (most recent call last):
-  File "D:\untitled\test_case\test_002.py", line 54, in test_login
-    self.lg.login(self.driver,"13534050371","1133557799")
-  File "D:\untitled\test_case\loginfc.py", line 9, in login
-    self.driver.get("http://www.zhichiwangluo.com")
-AttributeError: 'WebDriver' object has no attribute 'driver'
-Traceback (most recent call last):
-  File "D:\untitled\test_case\test_002.py", line 54, in test_login
-    self.lg.login(self.driver,"13534050371","1133557799")
-  File "D:\untitled\test_case\loginfc.py", line 9, in login
-    self.driver.get("http://www.zhichiwangluo.com")
-AttributeError: 'WebDriver' object has no attribute 'driver'
+  File "D:\github1\untitled\case\test_addCommodity.py", line 19, in test_add_commodity
+    self.commo.add_commodity(com)
+  File "D:\github1\untitled\pages\addCommodity.py", line 55, in add_commodity
+    self.click(self.loc7)
+  File "D:\github1\untitled\common\base.py", line 46, in click
+    element = self.findElement(locator)
+  File "D:\github1\untitled\common\base.py", line 28, in findElement
+    element = WebDriverWait(self.driver, self.timeout, self.t).until(lambda x: x.find_element(*locator))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
 
+Traceback (most recent call last):
+  File "D:\github1\untitled\case\test_addCommodity.py", line 19, in test_add_commodity
+    self.commo.add_commodity(com)
+  File "D:\github1\untitled\pages\addCommodity.py", line 55, in add_commodity
+    self.click(self.loc7)
+  File "D:\github1\untitled\common\base.py", line 46, in click
+    element = self.findElement(locator)
+  File "D:\github1\untitled\common\base.py", line 28, in findElement
+    element = WebDriverWait(self.driver, self.timeout, self.t).until(lambda x: x.find_element(*locator))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_login.Test_Login</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c3',4)">Detail</a></td>
+</tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_01: 用例说明：输入正确的用户名密码，登录成功</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+        pass</a>
+
+    <div id='div_pt3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.1: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_02: 用例说明：用户名正确、密码为空，登录失败</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.2')" >
+        pass</a>
+
+    <div id='div_pt3.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.2: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_03: 用例说明：用户名正确、密码为正确，点击自动登录,点登录</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.3')" >
+        pass</a>
+
+    <div id='div_pt3.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.3: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_04: 点击忘记密码</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.4')" >
+        pass</a>
+
+    <div id='div_pt3.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.4: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_login_ddt.Test_Login</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',3)">Detail</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_01_1: 用例说明：输入正确的用户名密码，登录成功</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
+        pass</a>
+
+    <div id='div_pt4.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.1: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_01_2: 用例说明：输入正确的用户名密码，登录成功</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.2')" >
+        pass</a>
+
+    <div id='div_pt4.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.2: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_01_3: 用例说明：输入正确的用户名密码，登录成功</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.3')" >
+        pass</a>
+
+    <div id='div_pt4.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.3: 
 
         </pre>
     </div>
@@ -349,10 +513,10 @@ AttributeError: 'WebDriver' object has no attribute 'driver'
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>3</td>
+    <td>9</td>
+    <td>7</td>
     <td>0</td>
-    <td>0</td>
-    <td>3</td>
+    <td>2</td>
     <td>&nbsp;</td>
 </tr>
 </table>
