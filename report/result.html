@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>官网登录自动化测试报告</title>
+    <title>即速应用自动化测试报告</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -188,10 +188,10 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>官网登录自动化测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-09-19 17:14:19</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:54.204532</p>
-<p class='attribute'><strong>Status:</strong> Pass 7 Error 2</p>
+<h1>即速应用自动化测试报告</h1>
+<p class='attribute'><strong>Start Time:</strong> 2019-09-19 17:38:26</p>
+<p class='attribute'><strong>Duration:</strong> 0:04:00.332746</p>
+<p class='attribute'><strong>Status:</strong> Pass 8 Error 1</p>
 
 <p class='description'>自动化测试报告</p>
 </div>
@@ -266,57 +266,31 @@ AttributeError: 'WebDriver' object has no attribute 'driver'
     </td>
 </tr>
 
-<tr class='errorClass'>
+<tr class='passClass'>
     <td>test_addCommodity.Test_add_Commodity</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
 </tr>
 
-<tr id='ft2.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_add_commodity</div></td>
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add_commodity: 添加电商商品</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
 
-    <div id='div_ft2.1' class="popup_window">
+    <div id='div_pt2.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft2.1: Traceback (most recent call last):
-  File "D:\github1\untitled\case\test_addCommodity.py", line 19, in test_add_commodity
-    self.commo.add_commodity(com)
-  File "D:\github1\untitled\pages\addCommodity.py", line 55, in add_commodity
-    self.click(self.loc7)
-  File "D:\github1\untitled\common\base.py", line 46, in click
-    element = self.findElement(locator)
-  File "D:\github1\untitled\common\base.py", line 28, in findElement
-    element = WebDriverWait(self.driver, self.timeout, self.t).until(lambda x: x.find_element(*locator))
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Traceback (most recent call last):
-  File "D:\github1\untitled\case\test_addCommodity.py", line 19, in test_add_commodity
-    self.commo.add_commodity(com)
-  File "D:\github1\untitled\pages\addCommodity.py", line 55, in add_commodity
-    self.click(self.loc7)
-  File "D:\github1\untitled\common\base.py", line 46, in click
-    element = self.findElement(locator)
-  File "D:\github1\untitled\common\base.py", line 28, in findElement
-    element = WebDriverWait(self.driver, self.timeout, self.t).until(lambda x: x.find_element(*locator))
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-
+pt2.1: 
 
         </pre>
     </div>
@@ -514,9 +488,9 @@ pt4.3:
 <tr id='total_row'>
     <td>Total</td>
     <td>9</td>
-    <td>7</td>
+    <td>8</td>
     <td>0</td>
-    <td>2</td>
+    <td>1</td>
     <td>&nbsp;</td>
 </tr>
 </table>

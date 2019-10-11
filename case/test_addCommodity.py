@@ -15,6 +15,7 @@ class Test_add_Commodity(unittest.TestCase):
         lo.login(keep_login = True)
 
     def test_add_commodity(self):
+        '''正确添加电商商品'''
         com = "自动添加商品" + time.strftime("%Y_%m_%d_%H_%M_%S")
         self.commo.add_commodity(com)
         result = self.commo.is_addComm_successful(com)
