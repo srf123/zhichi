@@ -2,7 +2,7 @@
 import unittest
 from common import HTMLTestRunner_cn
 #运行所有的用例
-casePath="D:\\github1\\untitled\\case"  #用例路径，git编写
+casePath="D:\\github1\\untitled\\case"  #23321用例路径，git编写1
 rule="test*.py" #匹配test开头,py结尾的文件
 discover = unittest.defaultTestLoader.discover(start_dir=casePath ,pattern=rule)
 print(discover)
