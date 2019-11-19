@@ -4,19 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/case/test_003.py" line="54" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f933f2f-a1e8-4fa8-ba01-114a02207a6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case/test_addCommClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/add_commodity_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_addCommodity.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_addCommodity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_login_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_login_ddt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/datas.xls" beforeDir="false" afterPath="$PROJECT_DIR$/common/datas.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/addCommodity.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/addCommodity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/result.html" afterDir="false" />
-    </list>
+    <list default="true" id="4f933f2f-a1e8-4fa8-ba01-114a02207a6e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/test_LoginDdt.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,17 +52,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/addCommodityCclass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="1495">
               <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/test_addCommodityClass.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
               </folding>
@@ -507,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case/test_login_ddt.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -604,6 +589,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/addCommodityCclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/case/test_addCommodity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -638,17 +630,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/addCommodityCclass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case/test_addCommodityClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
             <element signature="e#14#29#0" expanded="true" />
           </folding>
