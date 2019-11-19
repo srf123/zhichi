@@ -44,7 +44,7 @@ class LoginSuccess(Base):
 
 
         #登录流程
-        def login(self,username="18919045147",password="123456",keep_login=False):
+        def login(self,username="18919045147",password="123456",keep_login=False,):
                 self.driver.get(login_url)
                 self.driver.maximize_window()#放大窗口
                 # self.driver.find_element_by_xpath("//a[@class='nav-login-btn']").click()

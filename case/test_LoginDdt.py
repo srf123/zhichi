@@ -12,25 +12,23 @@ import os
 3、用户名错误、密码正确、登录失败
 
 '''
-#将测试数据放到list中用字典存储
-# testdates = [
-#     {"user":"18919045147","pasw":"123456","expect":"毝毝蟲"},
-#     {"user":"18919045147","pasw":"","expect":""},
-#     {"user":"1891904514","pasw":"123456","expect":""}
-# ]
+# 将测试数据放到list中用字典存储
+testdates = [
+    {"user":"18919045147","pasw":"123456","expect":"毝毝蟲"},
+    {"user":"18919045147","pasw":"","expect":""},
+    {"user":"1891904514","pasw":"123456","expect":""}
+]
 
 
-#通过test_login_ddt路径找到untitled工程路径
-propath =os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
-#通过工程路径找到datas路径
-filepath = os.path.join(propath ,"common","datas.xls")
-print(filepath)
-data = ExcelUtil(filepath)
-testdates=data.dict_data()
-print (testdates)
-
-
-
+# #通过test_login_ddt路径找到untitled工程路径
+# propath =os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+# #通过工程路径找到datas路径
+# filepath = os.path.join(propath ,"common","datas.xls")
+# print(filepath)
+# data = ExcelUtil(filepath)
+# testdates=data.dict_data()
+# print (testdates)
+#
 @ddt.ddt
 class Test_Login(unittest.TestCase):
     # '''登录类用例'''
@@ -54,9 +52,9 @@ class Test_Login(unittest.TestCase):
          self.assertTrue(t == expect)  # unittest自带的断言，判断实际结果和预期结果是否相等
 
     @ddt.data(*testdates)
-    def test_01(self,data):  #使用ddt框架，三个用例可以写在一个方法中
+    def test_01(self,testdates):  #使用ddt框架，三个用例可以写在一个方法中
         '''用例说明：输入正确的用户名密码，登录成功'''
-        self.login_case(data["user"],data["pasw"],data["expect"])
+        self.login_case(testdates["user"],testdates["pasw"],testdates["expect"])
 
 
     def tearDown(self) -> None:  #用例执行完后，调用一次

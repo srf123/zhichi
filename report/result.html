@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>即速应用自动化测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-09-19 17:38:26</p>
-<p class='attribute'><strong>Duration:</strong> 0:04:00.332746</p>
-<p class='attribute'><strong>Status:</strong> Pass 8 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-10-11 14:47:59</p>
+<p class='attribute'><strong>Duration:</strong> 0:02:11.141501</p>
+<p class='attribute'><strong>Status:</strong> Pass 4 Failure 3 Error 2</p>
 
 <p class='description'>自动化测试报告</p>
 </div>
@@ -266,31 +266,57 @@ AttributeError: 'WebDriver' object has no attribute 'driver'
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='errorClass'>
     <td>test_addCommodity.Test_add_Commodity</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
 </tr>
 
-<tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_add_commodity: 添加电商商品</div></td>
+<tr id='ft2.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_add_commodity: 正确添加电商商品</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        error</a>
 
-    <div id='div_pt2.1' class="popup_window">
+    <div id='div_ft2.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt2.1: 
+ft2.1: Traceback (most recent call last):
+  File "D:\github1\untitled\case\test_addCommodity.py", line 20, in test_add_commodity
+    self.commo.add_commodity(com)
+  File "D:\github1\untitled\pages\addCommodity.py", line 55, in add_commodity
+    self.click(self.loc7)
+  File "D:\github1\untitled\common\base.py", line 46, in click
+    element = self.findElement(locator)
+  File "D:\github1\untitled\common\base.py", line 28, in findElement
+    element = WebDriverWait(self.driver, self.timeout, self.t).until(lambda x: x.find_element(*locator))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "D:\github1\untitled\case\test_addCommodity.py", line 20, in test_add_commodity
+    self.commo.add_commodity(com)
+  File "D:\github1\untitled\pages\addCommodity.py", line 55, in add_commodity
+    self.click(self.loc7)
+  File "D:\github1\untitled\common\base.py", line 46, in click
+    element = self.findElement(locator)
+  File "D:\github1\untitled\common\base.py", line 28, in findElement
+    element = WebDriverWait(self.driver, self.timeout, self.t).until(lambda x: x.find_element(*locator))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
 
         </pre>
     </div>
@@ -299,31 +325,39 @@ pt2.1:
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>test_login.Test_Login</td>
     <td>4</td>
-    <td>4</td>
-    <td>0</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c3',4)">Detail</a></td>
 </tr>
 
-<tr id='pt3.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_01: 用例说明：输入正确的用户名密码，登录成功</div></td>
+<tr id='ft3.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_01: 用例说明：输入正确的用户名密码，登录成功</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        fail</a>
 
-    <div id='div_pt3.1' class="popup_window">
+    <div id='div_ft3.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt3.1: 
+ft3.1: Traceback (most recent call last):
+  File "D:\github1\untitled\case\test_login.py", line 35, in test_01
+    self.assertTrue(t == "毝毝蟲")  # unittest自带的断言，判断实际结果和预期结果是否相等
+AssertionError: False is not true
+Traceback (most recent call last):
+  File "D:\github1\untitled\case\test_login.py", line 35, in test_01
+    self.assertTrue(t == "毝毝蟲")  # unittest自带的断言，判断实际结果和预期结果是否相等
+AssertionError: False is not true
+
 
         </pre>
     </div>
@@ -356,22 +390,30 @@ pt3.2:
     </td>
 </tr>
 
-<tr id='pt3.3' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_03: 用例说明：用户名正确、密码为正确，点击自动登录,点登录</div></td>
+<tr id='ft3.3' class='none'>
+    <td class='failCase'><div class='testcase'>test_03: 用例说明：用户名正确、密码为正确，点击自动登录,点登录</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.3')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.3')" >
+        fail</a>
 
-    <div id='div_pt3.3' class="popup_window">
+    <div id='div_ft3.3' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.3').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.3').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt3.3: 
+ft3.3: Traceback (most recent call last):
+  File "D:\github1\untitled\case\test_login.py", line 69, in test_03
+    self.assertTrue(t == "毝毝蟲")  # unittest自带的断言，断言失败自动截图
+AssertionError: False is not true
+Traceback (most recent call last):
+  File "D:\github1\untitled\case\test_login.py", line 69, in test_03
+    self.assertTrue(t == "毝毝蟲")  # unittest自带的断言，断言失败自动截图
+AssertionError: False is not true
+
 
         </pre>
     </div>
@@ -404,31 +446,47 @@ pt3.4:
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>test_login_ddt.Test_Login</td>
     <td>3</td>
-    <td>3</td>
-    <td>0</td>
+    <td>2</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c4',3)">Detail</a></td>
 </tr>
 
-<tr id='pt4.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_01_1: 用例说明：输入正确的用户名密码，登录成功</div></td>
+<tr id='ft4.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_01_1: 用例说明：输入正确的用户名密码，登录成功</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.1')" >
+        fail</a>
 
-    <div id='div_pt4.1' class="popup_window">
+    <div id='div_ft4.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft4.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt4.1: 
+ft4.1: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\github1\untitled\case\test_login_ddt.py", line 59, in test_01
+    self.login_case(data["user"],data["pasw"],data["expect"])
+  File "D:\github1\untitled\case\test_login_ddt.py", line 54, in login_case
+    self.assertTrue(t == expect)  # unittest自带的断言，判断实际结果和预期结果是否相等
+AssertionError: False is not true
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\github1\untitled\case\test_login_ddt.py", line 59, in test_01
+    self.login_case(data["user"],data["pasw"],data["expect"])
+  File "D:\github1\untitled\case\test_login_ddt.py", line 54, in login_case
+    self.assertTrue(t == expect)  # unittest自带的断言，判断实际结果和预期结果是否相等
+AssertionError: False is not true
+
 
         </pre>
     </div>
@@ -488,9 +546,9 @@ pt4.3:
 <tr id='total_row'>
     <td>Total</td>
     <td>9</td>
-    <td>8</td>
-    <td>0</td>
-    <td>1</td>
+    <td>4</td>
+    <td>3</td>
+    <td>2</td>
     <td>&nbsp;</td>
 </tr>
 </table>

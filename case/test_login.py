@@ -85,7 +85,7 @@ class Test_Login(unittest.TestCase):
         print("关闭浏览器")
 
     @classmethod
-    def tearDownClass(cls) -> None:  # 用例执行后，执行一次"
+    def tearDownClass(cls):  # 用例执行后，执行一次"
         cls.driver.quit()
 
     #     print("用例后，只执行一次")

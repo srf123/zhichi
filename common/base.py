@@ -9,9 +9,11 @@ from selenium.webdriver.support.select import Select
 
 class Base():#基础操作封装
     #公共的参数
+
+
     def __init__(self,driver:webdriver.Chrome):
         self.driver=driver
-        self.timeout=10
+        self.timeout=15
         self.t=0.5
     #元素定位
     def findElementNew(self,locator):
@@ -34,7 +36,7 @@ class Base():#基础操作封装
             elements = WebDriverWait(self.driver, self.timeout, self.t).until(lambda x: x.find_elements(*locator))
             return elements
         except:
-            return []
+            return "查找超时"
 
     #封装send_keys
     def sendKyes(self,locator,text):
@@ -55,6 +57,12 @@ class Base():#基础操作封装
     def isSelected(self,locator):
         element = self.findElement(locator)
         sele = element.is_selected()
+        return sele
+
+     # 判断元素是否在页面显示
+    def isDispalyed(self, locator):
+        element = self.findElement(locator)
+        sele = element.is_displayed()
         return sele
 
     #判断元素是否存在:方法一
@@ -152,9 +160,18 @@ class Base():#基础操作封装
         target = self.findElement(locator)
         self.driver.execute_script("arguments[0].scrollIntoView()",target)
 
+    # 获取表格行数tr的长度，用于定位table中最后一行的下标
+    def lasttable(self,locator):
+        tbody = self.findElement(locator)
+        tr = tbody.find_elements_by_tag_name("tr")
+        return str(len(tr))  # 转换为字符串
 
-
-     #上传文件
+    #分页中，获取最后一页的下标
+    def lastpages(self,locator):
+        # 通过获取ul下li的长度，获取最后一页的下标
+        ul = self.findElement(locator)
+        li = ul.find_elements_by_tag_name("li")
+        return str(len(li) - 1)
 
 
 
