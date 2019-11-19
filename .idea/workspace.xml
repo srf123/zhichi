@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/case/test_003.py" line="54" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f933f2f-a1e8-4fa8-ba01-114a02207a6e" name="Default Changelist" comment="" />
+    <list default="true" id="4f933f2f-a1e8-4fa8-ba01-114a02207a6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_all.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/case/test_addCommodityClass.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
               </folding>
@@ -73,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
               </folding>
@@ -177,7 +180,6 @@
         <option value="$PROJECT_DIR$/pages/loginfc.py" />
         <option value="$PROJECT_DIR$/common/read_excel.py" />
         <option value="$PROJECT_DIR$/case/test_002.py" />
-        <option value="$PROJECT_DIR$/run_all.py" />
         <option value="$PROJECT_DIR$/case/test_login.py" />
         <option value="$PROJECT_DIR$/case/test_login_ddt.py" />
         <option value="$PROJECT_DIR$/pages/commodity-classification.py" />
@@ -191,10 +193,11 @@
         <option value="$PROJECT_DIR$/case/test_addCommodity.py" />
         <option value="$PROJECT_DIR$/case/test_addCommodityClass.py" />
         <option value="$PROJECT_DIR$/pages/addCommodity.py" />
+        <option value="$PROJECT_DIR$/run_all.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="555" />
     <option name="y" value="101" />
     <option name="width" value="1190" />
@@ -205,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,6 +239,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,6 +412,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="555" y="101" width="1190" height="866" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2048611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -596,6 +600,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_addCommodityClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/case/test_addCommodity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -630,20 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_addCommodityClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
           <folding>
             <element signature="e#14#29#0" expanded="true" />
           </folding>

@@ -1,8 +1,8 @@
-#coding=utf-8
+#coding:utf-8
 import unittest
 from common import HTMLTestRunner_cn
 #运行所有的用例
-casePath="D:\\github1\\untitled\\case"  #用例路径
+casePath="D:\\github1\\untitled\\case"  #用例路径66
 rule="test*.py" #匹配test开头,py结尾的文件
 discover = unittest.defaultTestLoader.discover(start_dir=casePath ,pattern=rule)
 print(discover)
