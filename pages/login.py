@@ -5,7 +5,7 @@ import time
 
 login_url="http://www.zhichiwangluo.com/index.php?r=login/Ulogin"
 class LoginSuccess(Base):
-        loc_user = ("id", "login-username")#用户名
+        loc_user = ("class name", "login-username")#用户名
         loc_pass = ("id", "login-password")#密码
         loc_button = ("xpath", "//div[@class='submit-btn']")#登录按钮
         loc_keep = ("id","save-PW")#7天内自动登录
@@ -82,7 +82,7 @@ if __name__ == '__main__':
         ls.input_user("18919045147")
         ls.input_password("123456")
         ls.click_keep_login()
-        ls.forget_pass()
+        #ls.forget_pass()
         p=ls.is_input_admin()
         print(p)
 

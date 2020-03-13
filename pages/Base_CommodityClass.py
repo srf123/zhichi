@@ -5,7 +5,7 @@ from pages.login import LoginSuccess as lg
 import time
 from selenium import webdriver
 
-class AddCommClass(Base):
+class AddCommdityClass(Base):
     '''添加电商分类'''
 
 
@@ -60,7 +60,7 @@ class AddCommClass(Base):
 
 
         # 获取table最后一行的下标中（每新增一行最后一行的下标都会变化）
-        lrlen= self.lasttable(self.loc12)
+        lrlen= self.lasttable(self.loc12,"tr")
         # 获取分类名称
         self.loc10 = ('xpath', '//*[@id="container"]/e-commerce/div[2]/div[2]/type-list/nz-layout/nz-layout/nz-content'
                           '/nz-table/div/nz-spin/div[2]/div/div/div/div/div/table/tbody/tr[' + lrlen + ']/td[2]')

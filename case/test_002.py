@@ -3,7 +3,7 @@
 # from ase import loginfc
 # import unittest
 # #添加商品判断是否添加成功1
-#
+#2222222
 # class TJ(unittest.TestCase):
 #     def setUp(self) -> None:
 #         self.lg=loginfc.LoginSuccess

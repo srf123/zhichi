@@ -1,12 +1,13 @@
 #coding=utf-8
 import  unittest
 from selenium import webdriver
-from pages.addCommodity import Commodity
+from pages.Base_Commodity import Commodity
 from pages.login import LoginSuccess
 import time
 
 
 class Test_addCommodity(unittest.TestCase):
+    '''基础商品'''
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome()
@@ -22,9 +23,9 @@ class Test_addCommodity(unittest.TestCase):
         print(result)
         self.assertTrue(result)
 
-    # @classmethod
-    # def tearDownClass(cls) -> None:
-    #    cls.driver.quit()
+    @classmethod
+    def tearDownClass(cls) -> None:
+       cls.driver.quit()
 
 if __name__ == '__main__':
      unittest.main()

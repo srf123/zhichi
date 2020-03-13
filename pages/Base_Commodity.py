@@ -59,7 +59,7 @@ class Commodity(Base):
 
     #添加商品
     def add_commodity(self,com="自动添加商品"):
-        self.driver.get("http://www.zhichiwangluo.com/management/shops/e-commerce/goods/goods-list")
+        self.driver.get("http://www.zhichiwangluo.com/management/shops/e-commerce/goods/goods-list?id=EQBYDcBill")
         self.click(self.loc6)
         self.click(self.loc7)
         self.sendKyes(self.loc8,com)
@@ -93,7 +93,7 @@ class Commodity(Base):
         self.click(self.loc17)
      #判断商品是否添加成功
     def is_addComm_successful(self,_text):
-        return self.is_text_in_element(self.loc19,_text)
+        return self.is_text_in_element(self.loc19,_text)#判断
 
 
 

@@ -11,8 +11,8 @@ print(discover)
 reportPath ="D:\\github1\\untitled\\report"+"\\result.html" #报告要存放的路径
 fp = open(reportPath,"wb")# open函数读取， wb以二进制写入
 runner = HTMLTestRunner_cn.HTMLTestRunner(stream=fp,
-                                          title="即速应用自动化测试报告",
-                                          description="自动化测试报告")
+                                          title="u即速应用自动化测试报告，测试结果如下：",
+                                          description="用例执行情况")
 runner.run(discover)
 
 fp.close()#关闭

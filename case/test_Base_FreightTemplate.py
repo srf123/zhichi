@@ -1,12 +1,12 @@
-#coding=utf-8
+#coding:utf-8
 import unittest
 from selenium import webdriver
 from pages.login import LoginSuccess
-from pages.addFreightTemplate import AddFreightTemplate
+from pages.Base_FreightTemplate import AddFreightTemplate
 import time
 
 class AddFreightTemplate(unittest.TestCase):
-    '''添加运费模板'''
+    '''基础运费模板（电商）'''
     @classmethod
     def setUpClass(cls) -> None:
         cls.driver=webdriver.Chrome()
